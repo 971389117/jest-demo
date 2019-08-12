@@ -1,5 +1,11 @@
-const sum=require('./sum')
+const {add,minus,multi} = require('./sum')
 
-test('adds 1+2 to equal 3',()=>{
-    expect(sum(1,2)).toBe(3);
+test('add',()=>{
+    expect(add(1,2)).toBe(3)
+})
+test('minus',()=>{
+    expect(minus(1,2)).toBe(-1)
+})
+test('multi',()=>{
+    expect(multi(3,2)).toBe(6)
 })
