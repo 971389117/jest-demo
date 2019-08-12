@@ -5,7 +5,8 @@
   "author": "971389117 <971389117@qq.com>",
   "license": "MIT",
   "scripts": {
-    "test":"jest"
+    "test":"jest",
+    "coverage":"jest --coverage"
   },
   "devDependencies": {
     "jest": "^24.8.0"

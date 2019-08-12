@@ -8,9 +8,10 @@
 2. 写代码
 3. 测试
 
-```js
-const sum=require('./sum')
+初始化 jest配置文件
+`$ npx jest --init`
+``
+生成测试覆盖率报告
+`$ npx jest --coverage`
 
-test('adds 1+2 to equal 3',()=>{
-    expect(sum(1,2)).toBe(3);
-})```
+
