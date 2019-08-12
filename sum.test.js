@@ -1,4 +1,4 @@
-const {add,minus,multi} = require('./sum')
+import {add,minus,multi} from './sum'
 
 test('add',()=>{
     expect(add(1,2)).toBe(3)

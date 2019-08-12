@@ -5,10 +5,12 @@
   "author": "971389117 <971389117@qq.com>",
   "license": "MIT",
   "scripts": {
-    "test":"jest",
-    "coverage":"jest --coverage"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "jest": "^24.8.0"
   }
 }

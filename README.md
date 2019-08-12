@@ -14,4 +14,5 @@
 生成测试覆盖率报告
 `$ npx jest --coverage`
 
-
+安装 babel
+`$ npm install @babel/core @babel/preset-env -D`
