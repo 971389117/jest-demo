@@ -15,4 +15,4 @@
 `$ npx jest --coverage`
 
 安装 babel
-`$ npm install @babel/core @babel/preset-env -D`
+    `$ npm install @babel/core @babel/preset-env -D`
